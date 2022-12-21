@@ -1,0 +1,162 @@
+body {
+  width: 100%; // ocupe 100% do espaço;
+  position: relative; // posição relativa: eu falo onde as coisas se encaixam;
+  background: #181818; // cor de fundo;
+  font-family: 'roboto', sans-serif; // fonte;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px; // altura relativa;
+  position: fixed; // sempre fixo;
+  top:0; // fixo no topo, na posição 0;
+  z-index: 9; // deixa em destaque, sempre na frente de tudo;
+  background: #000;
+  padding: 0 2.5vw; // espaçamento entre os conteúdos;
+  display: flex; // posição dos elementos;
+  align-items: center; // elementos alinhados no centro;
+}
+
+.join-box {
+  width: fit-content; // tamanho e largura vai ser de acordo com os conteúdos que possuem dentro;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  height: auto; // altura automática;
+  margin-left: auto; // margem a esquerda automática;
+}
+
+.join-msg {
+  color:#fff;
+  text-transform: uppercase; // o texto será com letra maiúscula;
+}
+
+.logo {
+  height: 80px;
+}
+
+.btn {
+  border: 1px solid #fff; // borda deixando uma linha branca;
+  border-radius: 2px; // arredonda a borda;
+  background: none; // fundo transparente;
+  color:#fff; // cor da letra;
+  height: 35px;
+  padding: 0 10px; // espaçamento interno;
+  margin-left: 10px; // margem a esquerda;
+  text-transform: uppercase; 
+  cursor: pointer; // toda vez que passar o cursor em cima do botão ele fica ponteiro;
+}
+
+.join-btn {
+  background: #dd0e15;
+  border-color: #dd0e15;
+}
+
+.main {
+  position: relative;
+  margin-top: 60px; // margem no topo;
+  width: 100%;
+  padding:20px 2.5vw;
+  color:#fff;
+}
+
+.heading {
+  text-transform: capitalize; // deixa sempre a primeira letra em maiúsculo;
+  font-weight: 900;
+  font-size: 50px; // tamanho da fonte;
+}
+
+.info {
+  width: 50%;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.movie-list {
+  width: 100%;
+  height: 250px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.movie-category {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  /* text-transform: capitalize; */
+}
+
+.movie-container {
+  width: 100%;
+  height: 250px;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden; 
+  scroll-behavior: smooth; 
+  display: flex;
+}
+
+.movie-container::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-category::-webkit-scrollbar {
+  display: none;
+}
+
+.movie {
+  flex:0 0 auto;
+  width: 24%;
+  height: 200px;
+  text-align: center;
+  margin-right: 10px; // margem a direita;
+  margin-top: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.movie img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover; // manipula o tamanho de encaixe da imagem;
+}
+
+.movie p {
+  text-transform: capitalize;
+  height: 20px;
+  overflow: hidden; // caso sobreponha;
+}
+
+.pre-btn,
+.next-btn {
+  position: absolute;
+  height: 200px;
+  top:50%; // topo;
+  transform: translateY(-50%);
+  width: 2.5vw;
+  background: #181818;
+  border: none; // não tem borda;
+  outline: none;
+  opacity: 0.5;
+}
+
+.pre-btn:hover,
+.next-btn:hover {
+  opacity: 1; // evento de passar o mouse em cima;
+}
+
+.pre-btn {
+  left: -2.5vw;
+}
+
+
+.next-btn {
+  right: -2.5vw;
+}
+
+.pre-btn img,
+.next-btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain; // vai ser do tamanho do container;
+}
