@@ -5,27 +5,28 @@
 
 ## :page_with_curl: Sobre
 
-Aplicativo desenvolvido durante a Semana Mobile do OneBitCode.Evento exclusivo e gratuito, promovido pelo OneBitCode, onde você pude criar um projeto Mobile com React Native e dar o primeiro passo em uma das áreas de alta remuneração da Programação. 
+Aplicativo desenvolvido juntamente com a Dio, como uma forma de expandir meus conhecimento em Fundamentos da Web.
 
 
 ## 📖 Descrição
 
-O aplicativo OneBitLife tem como objetivo fazer um gerenciamento de tarefas, que ajudam o usuário a fixar hábitos melhores e mais saudáveis em sua vida. De uma forma bem visual, o BIT, nosso robô, alerta o usuário caso ele não esteja cumprindo suas tarefas da forma que foi planejada. O robô vai mudando de humor e a barrinha que indica que ele está progredindo, vai diminuindo, até que ele pode morrer, caso as tarefas não sejam cumpridas.
+O aplicativo Netflix tem como objetivo trazer de forma dinânica todos as categorias de filmes e séries para que o usuário e sua família tenham opões de escolher e se divertindo vendo obras incríveis. 
 
 
 ## :man_technologist: Habilidades Desenvolvidas
 
-- Criar os hábitos que deseja melhorar
-- Criar notificações
-- Editar os hábitos
-- Excluir os hábitos
-- Marcar a tarefa como concluída
+- Criar uma página dinânima
+- Criar estilos na página
+- Acessar uma API
+- Trazer os elementos da API de forma dinâmica para a página
+- Manipulação do DOM
 
 
 ## :hammer_and_wrench: Ferramentas Utilizadas
 
-- Node.js 
+- HTML
+- CSS
 - JavaScript
-- React
-- SQLite
-- Android Studio
+- Express
+- API
+- DOM
