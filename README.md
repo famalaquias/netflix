@@ -1,4 +1,4 @@
-# 🎥Netflix 
+# 🎥 Netflix 
 
 ![netflix](https://user-images.githubusercontent.com/98343640/209210065-90ab0d9a-f601-48d6-aef1-e47e4629b762.png)
 
